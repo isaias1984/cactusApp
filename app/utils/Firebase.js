@@ -1,14 +1,13 @@
 import firebase from 'firebase/app'
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyDsVhudFKTRlvTFNnppsv4vMS8H9MJ6jAs',
-  authDomain: 'cactus-project-b12cf.firebaseapp.com',
-  databaseURL: 'https://cactus-project-b12cf.firebaseio.com',
-  projectId: 'cactus-project-b12cf',
-  storageBucket: 'cactus-project-b12cf.appspot.com',
-  messagingSenderId: '341730773134',
-  appId: '1:341730773134:web:e66f180fc7bcc4270421df',
-  measurementId: 'G-8H3Q79T4RS'
+    apiKey: "AIzaSyDD3axALI9NYb_QrX7xOEptMqLAQn7uULo",
+    authDomain: "cactusrestore.firebaseapp.com",
+    databaseURL: "https://cactusrestore.firebaseio.com",
+    projectId: "cactusrestore",
+    storageBucket: "cactusrestore.appspot.com",
+    messagingSenderId: "684036832790",
+    appId: "1:684036832790:web:9e0136efc08271b2e6bf37"
 }
 
 export const firebaseApp = firebase.initializeApp(firebaseConfig)
